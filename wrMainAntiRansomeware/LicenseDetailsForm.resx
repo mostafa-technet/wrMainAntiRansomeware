@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>WEBROAM SECURITY SUITE End-User License Agreement
+
+IMPORTANT
+
+PLEASE READ THIS WEBROAM SECURITY SUITE END-USER LICENSE AGREEMENT 
+(HEREINAFTER REFERRED TO AS THE “AGREEMENT”) CAREFULLY BEFORE USING OR TRYING TO 
+ATTEMPT TO USE THIS WEBROAM SECURITY SUITE  SOFTWARE (HEREINAFTER REFERRED TO 
+AS THE “SOFTWARE”).
+
+BY USING THIS SOFTWARE OR BY ACCEPTING OUR SOFTWARE USAGE AGREEMENT POLICY OR 
+ATTEMPTING TO LOAD THE SOFTWARE IN ANY WAY, (SUCH ACTION WILL CONSTITUTE A 
+SYMBOL OF YOUR CONSENT AND SIGNATURE), YOU ACKNOWLEDGE AND ADMIT THAT 
+YOU HAVE READ, UNDERSTOOD AND AGREED TO ALL THE TERMS AND CONDITIONS OF THIS 
+AGREEMENT. THIS AGREEMENT ONCE ACCEPTED BY “YOU” [ AS AN INDIVIDUAL 
+(ASSUMING YOU ARE ABOVE 18 YEARS AND/OR HAVING LEGAL CAPACITY TO ENTER 
+INTO AN AGREEMENT), OR THE COMPANY OR ANY LEGAL ENTITY THAT WILL BE USING 
+THE SOFTWARE (HEREINAFTER REFERRED TO AS 'YOU' OR 'YOUR' FOR THE SAKE OF BREVITY)]
+SHALL BE A LEGALLY ENFORCEABLE AGREEMENT BETWEEN YOU AND 
+Quick Heal TECHNOLOGIES LIMITED (Formerly Known as Quick Heal Technologies Pvt. Ltd.),
+PUNE, INDIA (HEREINAFTER REFERRED TO AS “WEBROAM”) AND YOU SHALL HAVE THE RIGHTS TO 
+USE THE SOFTWARE FOR YOUR OWN USE AND SUBJECT TO THE TERMS AND CONDITIONS MENTIONED 
+IN THIS AGREEMENT OR AS AMENDED BY WEBROAM FROM TIME TO TIME. 
+IF YOU DO NOT AGREE TO ALL THE TERMS AND CONDITIONS BELOW, 
+DO NOT USE THIS SOFTWARE IN ANY WAY AND PROMPTLY RETURN IT OR 
+DELETE ALL THE COPIES OF THIS SOFTWARE IN YOUR POSSESSION.
+
+In consideration of payment of the License Fee, which is a part of the price, 
+evidenced by the Receipt, WebRoam grants the Licensee, 
+a non-exclusive and non-transferable right for your own use only. 
+WebRoam reserves all rights not expressly granted, and retains the 
+Intellectual Property Rights, Proprietary Rights, title and ownership of the software,
+including all subsequent copies in any media. This software and the accompanying 
+written materials are the property of WebRoam and are copyrighted. 
+Copying of the software or the written material is expressly forbidden. 
+This Software and the accompanying written materials are the property of WebRoam
+and are copyrighted.
+
+1. DEFINITIONS
+A. "Distributors” means the authorized distributors, sub-distributors or other business
+    partners of WebRoam, selling WebRoam range of products, including sales 
+	through Internet.
+B. “License period” means the period as more particularly described in this Agreement.
+C. “Device” means the personal digital assistants, smartphones, handheld devices, 
+    or other electronic devices for which the software is specifically designed 
+	(for such system requirements as particularly described in the user manual 
+	or http://www.WebRoam.com) where the software will be installed and/or used.
+D. “Normal working hours” shall mean 09:30 a.m. to 6:30 p.m. India Standard Time (IST)
+   on Working Days and "Working Days" means Mondays to Fridays inclusive, 
+   but excluding bank and public holidays in India.
+E. “Open Source Software” means any software or software component or technology that  
+   is subject to an open source license. Open source licenses are generally licenses 
+   that make source code available for free modification and distribution, 
+   but can also apply to technology received and distributed solely in object code form 
+   Examples of open source licenses include: 
+   (a) GNU's General Public License (GPL) or Lesser/Library GPL (LGPL); 
+   (b) the OpenSSL License; 
+   (c) the Mozilla Public License; 
+   (d) the Berkeley Software Distribution (BSD) License; and 
+   (e) the Apache License.
+F. “Support or Technical Support” means the Technical Assistance in order to use 
+   the software, provided by WebRoam, which may or may not be chargeable to you. 
+   For more details, please refer to http://www.WebRoam.com. 
+G. “Third Party Materials” means software, services, websites, offers and promotions 
+   or products provided by any third party and governed by Third Party Terms and 
+   Conditions.
+H. “Third Party Terms and Conditions” means any license agreements, terms of use, 
+   terms of service, privacy policies and other conditions established by 
+   third parties governing access to or use of Third Party Materials.
+I. “Updates” means collections of any or all among virus definition files including 
+   detections and solutions for new viruses along with the corrections, 
+   improvements or modifications to the software.
+J. “Upgrades” means any correction, improvement, modification or yearly enhancements
+   in the form of the new version of the software which WebRoam generally releases 
+   once a year.
+K. “User Manual” means the user guide, Help guide, and other documentation provided
+   with the software, updated agreements provided on the website of 
+   WebRoam (http://www.WebRoam.com), 
+   explanatory or  other materials as provided from time to time by WebRoam.
+L. “You” means the “End User” which means:
+   i. An individual (such an individual) installing/using/legally acquiring the 
+   right to use this software on his/her own behalf and every other person 
+   (whether authorized or not by such an individual) who uses/has the possession 
+   of the device on which the software is installed and activated; or
+   ii.An organization (including but not limited to a partnership, joint venture, 
+   Limited Liability partnership, Limited Liability Company, Company of any nature, 
+   Trust, Governmental Authority, Unincorporated Organization, Association of Persons)
+   or any person (such person) who have been authorized by such an Organization 
+   to install, download, use the software, accept the Agreement on behalf of the 
+   Organization and every other person (whether authorized or not by such person)
+   who uses/has the possession of the Device on which the software is 
+   installed and activated.
+
+2. DO's &amp; DON'Ts
+2.1 You can:
+A. make copy of the software for backup purpose or for the purpose of sharing through 
+   various means (and such backup copy must be destroyed when you lose the right to 
+   use the software or is terminated for any other reason according to the legislation 
+   in force in the country of your principal residence or in the country where 
+   You are using the software) and replace lost, destroyed, or becomes unusable.
+B. use one copy of the software on a single device. In case of multiuser pack, 
+   use the software only on the said number of devices as permitted. 
+C. install the software on a network, provided you have a licensed copy of the 
+   software for each device that can access the software over that network.
+2.2 You cannot:
+A. emulate, or adapt any portion of the software.
+B. sublicense, rent or lease any portion of the software.
+C. try making an attempt to reveal/discover the source code of the software.
+D. debug, decompile, disassemble, modify, translate, reverse engineer the software.
+E. create derivative works based on the software or any portion thereof with 
+   sole exception of a non-waivable right granted to You by any applicable legislation.
+F. remove or alter any copyright notices or other proprietary notices or statutory 
+   notices on any copies of the software.
+G. reduce any part of the software to human readable form.
+H. use the software in the creation of data or software used for detection, 
+   blocking or treating threats described in the user manual.
+I. use for unlicensed and illegal purpose.
+J. test or benchmark, or disclose or publish testing or benchmark results, 
+   without earlier written consent of WebRoam.
+
+3. ACTIVATION
+A. WebRoam warns you that in the process of installation of the software, 
+   the other security products/software installed on your device may uninstall or
+   be disabled if the same are not compatible with the WebRoam software. 
+   WebRoam expressly disclaims any loss of data, loss of profits during such 
+   installation. If you modify your device or make alterations/modifications 
+   to other vendors’ software installed on it, you may be required to repeat 
+   activation of the software or  installation of license key file or in case 
+   contact WebRoam support. WebRoam reserves the right to verify the 
+   validity/ legality of the license and software.
+B. The license rights granted under this Agreement are limited for the first 
+   twenty (20) days after you first install the product unless you supply 
+   registration information required to activate your licensed copy 
+   as described in Activation Wizard of the Product. 
+C. You can activate the product through the Internet. You may also need to 
+   reactivate the product if you happen to re-install the product due to 
+   any reasons. There are technological measures in this product that are 
+   designed to prevent unlicensed or illegal use of the product. 
+   You agree that we may use those measures. 
+   You agree that the WebRoam software may use the measures that can control 
+   and prevent piracy of software. As a registered user, 
+   you are entitled to receive free (i.e. free of cost) virus database updates and free
+   (i.e. free of cost) version upgrade (whenever WebRoam releases new version upgrade) 
+   during the license period, subject to the terms and conditions mentioned herein.
+D. As the only warranty under this Agreement, and in the absence of accident, 
+   abuse or misapplication, WebRoam warrants, to the original Licensee only, 
+   that the disk(s) on which the software is recorded is free from defects 
+   in the materials and workmanship under normal use and service for 
+   a period of thirty (30) days  from the date of payment as evidenced 
+   by a copy of the Receipt. WebRoam's only obligation under this Agreement is, 
+   at WebRoam's  option, to either 
+   (a) return payment as evidenced by a copy of  the Receipt or 
+   (b) replace the disk that does not meet WebRoam's  limited warranty and 
+   which is returned to WebRoam with the copy of the receipt. 
+   Other than expressly provided in this clause, WebRoam shall not assume 
+   any warrantee regarding the performance of software and shall entertain 
+   no claim regarding the same. 
+
+4. THIRD PARTY WEBSITE LINKS
+ At certain point(s) the software product may include links to third-party sites; 
+ you may link to such third-party websites as the user of this software. 
+ The third-party sites are not under the control of WebRoam and 
+ WebRoam is not responsible for the content of any third-party website and/or any links
+ contained in the third-party websites. WebRoam is providing these links to 
+ the third-party websites to you only for your convenience and 
+ WebRoam is not responsible for any kind of loss/damage arising out of it and 
+ the access to or any other act on such third party links shall be entirely at 
+ your risk.  You understand and accept that the software will provide protection 
+ to your device after activation/ sign up of the said software, 
+ until the deactivation of subscription or trial period or uninstallation, 
+ whichever is earlier. Further WebRoam shall not be held liable, 
+ if the software is deactivated /uninstalled due to action/inaction of 
+ End user or third party during the period of activation.
+
+5. LICENSE PERIOD
+A. You are entitled to use this software from the date of license activation until 
+   the expiry date of the license.
+B. You understand, agree and accept that you are entitled for the updates and 
+   technical support via the Internet and telephone. Any use of the software 
+   for any other purposes except permitted for, is strictly forbidden and 
+   prohibited and WebRoam reserves to take any action against such unauthorized usage.
+C. You agree, understand that any unauthorized usage of the software  or breach of 
+   any / all terms and conditions stated herein the  Agreement shall result in 
+   automatic and immediate termination of this Agreement and the License granted 
+   hereunder and which may result in criminal and / or civil action by WebRoam and/or 
+   its  agents against you including but not limited to right to block the 
+   key file / License key / product key and without any refund to You and 
+   without any prior intimation/notice to you in this regard.
+D. If you have acquired the specific language localization of the software, 
+   you will not be able to activate the software by applying the 
+   activation code of other language localization.
+E. WebRoam does not guarantee the protection from the threats more particularly 
+   described in the user manual after the License to use the 
+   software is terminated for any reason.
+
+6. FEATURES OF SOFTWARE
+A. During the license period of the software, You have the right to use 
+   features of software.
+B. During the license Period of the Software, You have the right to 
+   receive free updates of the software via Internet as and when 
+   WebRoam publishes the updated virus- database and free version upgrade 
+   as and when WebRoam releases new version upgrade. 
+   You agree, understand and accept that You will be required to regularly 
+   download the updates published by WebRoam. Any and all updates/upgrades 
+   you receive from WebRoam shall be governed by this Agreement, 
+   or as amended from time to time by WebRoam.
+C. You agree, accept and acknowledge:
+I. that You are solely responsible for the configuration of the software settings 
+   and the results, actions, inactions initiated due to the same and 
+   WebRoam shall not have and shall assume no liability / responsibility in any case 
+   and the Clause of Indemnification shall be applicable.
+II. that WebRoam shall not have and shall assume no liability / responsibility 
+   for any data deletion, including but not limited to any deletion / loss of personal,
+   and/or confidential data; and/or uninstallation of third-party apps; 
+   and/or change in settings; specifically authorized by You or occurs 
+   due to the actions, inactions (whether intentional or not) by You 
+   or any third party whom You have authorized to use, 
+   handle your Device due to features of software.
+III. that to avail / use certain features of the software, 
+    you may be required to incur certain cost and that WebRoam does not warrant that 
+	the usage of certain features of the software are free of cost and that 
+	WebRoam shall not entertain and expressly disclaims, 
+	any claim for reimbursement of any expenses including but not limited 
+	to any direct or incidental expenses arising out of Your usage of 
+	such features of the software.
+IV. that you be solely responsible and shall comply all applicable laws, 
+    regulations of India and any applicable foreign / trans-national laws 
+	including without limitation, privacy, data protection, obscenity, 
+	confidentiality, copyright laws for using any report, data, 
+	information derived as a result of using the software.
+V. that while using the software, WebRoam suggests some actions to be 
+   initiated by You in your sole benefit, 
+   for example “WebRoam software may suggest You to uninstall infected applications”,
+   however such actions are suggestive and WebRoam takes no responsibility 
+   / liability if you perform such suggestive actions or not and WebRoam 
+   assumes no responsibility/liability for any result or liability arising 
+   out of such actions / inactions.
+
+7. General Disclaimers
+A. You agree, accept, and acknowledge:
+i. That you are solely responsible for the configuration of the software, settings, 
+   and the actions or inactions that result from such actions and WebRoam shall not 
+   have and shall assume no liability/responsibility  in any case and the Clause 
+   of Indemnification shall be applicable.
+ii. That WebRoam shall not have and shall assume no liability/responsibility for 
+    any data deletion, including but not limited to any deletion/loss of  personal,
+	and/or confidential data; and/or uninstallation of third-party  apps; 
+	and/or change in settings; specifically authorized by you or occurs 
+	due to the actions, inactions (whether intentional or not) by you or 
+	any third party whom you have authorized to use, handle your device 
+	due to features of this software.
+iii. That to avail/use certain features of the software such as updates and upgrades,
+    you may be required to incur certain costs and that WebRoam does not warrant that
+	the usage of certain features of the software are free of cost and 
+	that WebRoam shall not entertain and expressly disclaims, 
+	any claim for reimbursement of any expenses including but not limited to any 
+	direct or incidental expenses arising out of your usage of such 
+	features of this software.
+iv. That you are solely responsible and shall comply with all applicable laws, 
+    regulations of India and any applicable foreign/trans-national laws 
+	including without limitation, privacy, data protection, obscenity, \
+	confidentiality, copyright laws for using any report, data, 
+	information derived as a result of  using this software.
+v. That while using this software, WebRoam suggests some actions to be initiated by 
+   you in your sole benefit, 
+   for example “WebRoam software may suggest you to uninstall infected applications”, 
+   however such actions are suggestive and WebRoam takes no responsibility/liability 
+   if you perform such suggestive actions or not and WebRoam assumes no 
+   responsibility/liability for any result or liability arising out of 
+   such actions/inactions.
+
+8. OPEN SOURCE SOFTWARE (OSS)
+  You hereby acknowledge that the Software may contain Open Source Software  
+ (as defined above). The Open Source Software, 
+ if any, contained in the Software, shall be governed by the terms and conditions 
+ as is mentioned in detail in the applicable Open Source Software license. 
+ Nothing in this Agreement limits your rights under, or grants You rights that 
+ supersede, any Open Source Software license. You acknowledge that the 
+ Open Source Software license is solely between You and the applicable licensor 
+ of the Open Source Software. All the terms of all applicable Open Source 
+ Software licenses, if any shall be binding on You and will be complied by You. 
+ License, copyright and trade mark information for the Open Source Software are 
+ disclosed in the links given herein below. WebRoam is not obligated to provide 
+ any maintenance or support for the Open Source Software or any Product Software 
+ that has been modified by You pursuant to an Open Source Software license.
+   
+9. SUPPORT
+ WebRoam offers support features during usage of this software 
+ i.e., Live Chat with technical support team and/ or the technical support team 
+ may, at your discretion, take remote access. The availing of this support will 
+ be solely at your discretion and you are solely responsible to take backup of 
+ the existing data/software/programs in your device before availing such a 
+ support and you are liable to bear all the direct, indirect and consequential 
+ cost associated to it. WebRoam will not be held responsible for any loss of data, 
+ any kind of direct/ indirect/consequential loss or damage to data/ property 
+ arising during this entire process. If at any point of time the Technical 
+ Support team is of the opinion that it is beyond their scope, it will be the 
+ sole discretion of WebRoam to suspend, cease, terminate or refuse such support 
+ as WebRoam does not claim any warranty and/or guarantee of any kind in 
+ providing the support feature.
+
+10. EMAIL/ELECTRONIC COMMUNICATION
+ Once you register the software by activating the software, 
+ WebRoam may communicate with you on the contact information 
+ submitted during the registration process through email or any other 
+ electronic communication device. The communication can be for the 
+ purpose of product renewal or product verification for your convenience.
+
+11. WebRoam STATUS UPDATE
+ WebRoam may at its sole discretion, provide updates to the software 
+ for the said license period only. Upon every update of licensed copy during 
+ the said period, WebRoam Update module will send current product status 
+ information to WebRoam Internet Center. The information that will be sent 
+ to the Internet Center includes the WebRoam protection health status like, 
+ which monitoring service is in what state in the system. 
+ The information collected does not contain any files or personal data. 
+ The information will be used to provide quick and better technical support 
+ for legitimate customers. WebRoam reserves the right to opt for use of any 
+ updated version/license of any open source software for the purposes of 
+ providing updates. All the registered users will get the updates free of 
+ cost from the date of license activation until the expiry date of the license.
+
+12. DATA COLLECTION &amp; PRIVACY
+WebRoam software may collect the following information which may or may not 
+contain any Personally Identifiable Information or Personal Data either solely 
+for statistical purpose or enhancing and evaluating the ability, effectiveness, 
+and performance of WebRoam's software in identifying and/or detecting the 
+malicious behavioral pattern, inherently fraudulent websites and o
+ther Internet security threats/risks. 
+The information may be used to provide quick and better technical support 
+to the legitimate customers. Password entered by the end users during registration
+is not stored on WebRoam server. This information will not be correlated with any 
+personally identifiable information except as herein stated and shall include, 
+but not limited to:
+•	Any type of executable files which the software may identify having a 
+    potentially malware behavioural pattern.
+•	Any type of information relating to the status of the software. 
+•	Any type of information relating to the status of the software that 
+    whether there occurred any error while installing the Software or 
+	the installation was successful.
+•	Any type of URLs of websites visited that the software deems inherently 
+    and potentially fraudulent.
+•	Any type of information that software deems potentially fraudulent, 
+    posing security risks/threats.
+•	Any type of information for identifying the Media Access Control (MAC) address 
+    of the computer on which the software has been installed.
+•	Any type of information for identifying the Internet Protocol (IP) address and 
+    information required for effective license administration and 
+	enhancing product functionality and usability.
+•	You admit that the information/data as collected above can be used for analyzing,
+    preventing and detecting the potential Internet security risks, 
+	publishing any type of data/reports/presentations on 
+	the trends collected, sharing the data to create awareness 
+	with any organizations, vendors.
+
+This data will be sent to WebRoam only with Your permission. 
+This data will be collected anonymously and will not be related 
+to any Personally Identifiable Information or Personal Data.
+
+By using the software, You acknowledge and agree that WebRoam may collect, 
+transmit, store, disclose and analyze such information for the purposes 
+mentioned in its privacy policy. You declare that all the data that you 
+provide is true and accurate and undertakes to inform WebRoam of any changes 
+to said data. In case if any wrong information is provided You are solely 
+liable, WebRoam is no way responsible for same.
+
+In case if You have provided information of third party, 
+then it is Your responsibility to obtain third parties consent and
+provide said consent to WebRoam. 
+We request Your personal information when You place an order, register a product,
+request a service, request for a trial copy of our software, correspond with us 
+or engage in certain other activities with respect to our website or products. 
+Following are the instances when we collect Your information along 
+with the details of data collected by us:
+•	If You submit an order online with us, You will be asked for information 
+    needed to complete the transaction such as Your name, Organization name, 
+	address, e-mail ID, Phone number and credit card details/payment details.
+•	If You visit our website and register interest in our products, 
+    You will be asked for name, Organization name, e-mail ID, Phone number 
+	&amp; postal address.
+•	If You visit our website and download any document related to our products,
+    you will be asked for name, Organization name, e-mail ID, 
+	Phone number &amp; postal address 
+•	When You will request for registration of product, we will ask for name, 
+    phone number, source of purchase, e-mail ID &amp; postal address
+•	If You request technical support by email, telephone or by remote access, 
+    we will ask You for information needed to complete the transaction such as 
+	Your registration/ license number and information about Your device hardware, 
+	software and the nature of the problem you are experiencing; 
+	and during remote access, we may ask for full control of Your device.
+•	If You use our Live Web Chat Service, we will ask You for information required to 
+    understand your query and provide appropriate solution. 
+	During your Live Web Chat Service, we will require Your e-mail address, 
+	activation code, license number, IP address, time and date of chats and similarly,
+	Your chat data content shall be required to improve our service quality 
+	and resolve your query. 
+•	If You acquire the security services for any of the Devices, 
+    we might also collect and process the following data: 
+	device ID, device serial number, device name, model number, IMSI/IMEI, 
+	the phone number, MAC address, blocked process, remote IP, 
+	device statistics and usage. 
+•	The device information that Cloud Software obtain through the use of 
+    data collection technology, could include the device’s:  
+	name or ID, serial number, MAC address, IP address, unique identifier for the 
+	device, logged username, FQDN, OS version, service packs, file path, 
+	installed applications (if any).
+•	While scanning or when a threat is detected, the following information 
+    may be sent to us: file name and file path, registry paths, process name, 
+	source URL, abstract file signature for suspicious Portable Executable files, 
+	files parts or file hashes (only when required by the remote scanning engines), 
+	file attributes, quarantined file names and paths and other anonymized data.
+•	If You use our product that integrates with your email client, 
+    some additional technical data about the mail content 
+	could be sent to us, including email sender, recipient, subject, attachments, 
+	mail server IPs, timestamp, mailbox, mailbox path, content type, domain name.
+•	If You have availed anti-theft feature, data related to geo-location 
+    of the device shall be processed.
+It is Your decision to proceed with any activity that requests your 
+personal information. 
+However, please note that if you do not wish to provide the requested information,
+you may not be able to complete the specific process.
+
+Your data mentioned hereinabove shall be retained depending on the purposes for 
+which WebRoam use it. WebRoam will keep your Personal Information for as long as
+ You are a registered subscriber or user of our products or for as long as 
+ WebRoam have another business purpose to do so or till the time as required by law.
+
+For more details on Privacy Policy, please visit our Privacy Policy page. 
+
+13.	 HOW WebRoam USE THIS INFORMATION
+
+WebRoam use Your personal information:
+•	To create better products and services to meet Your needs.
+•	To enable the features which You have availed.
+•	To help you purchase and download products, obtain access to services or 
+    otherwise engage in activities You select.
+•	To help You to introduce You to products or services that may be of interest to 
+    You or to provide customer support.
+•	To assist and co-ordinate with investigation agencies.
+•	To provide better/adequate/fast support over the telephone, email, fax, etc.
+Please be advised that WebRoam may disclose your personal information if legally 
+required to do so by government agencies or law enforcement bodies.
+WebRoam is using the collected data as set out above for the purpose of optimizing the 
+functionality of WebRoam's Software. Similarly, WebRoam may transfer collected data to 
+WebRoam Group in countries that may have less protective data protection laws than the 
+region in which You are situated (including in the India, United States and 
+the European Union), but WebRoam has taken steps so that the collected information, 
+if transferred, receives an adequate level of protection.
+
+14.	 SECURITY
+WebRoam have taken security measures, consistent with international information 
+practices, to protect Your personal information, which offers adequate level of 
+personal data protection according to European Union standards (including GDPR, 
+and aims to protect network and information security). These measures include 
+technical and procedural steps to protect Your data from misuse, unauthorized 
+access or disclosure, loss, alteration or destruction. Credit card information 
+is transmitted using secure socket layer (SSL) encryption.
+The personal information that You have shared with WebRoam may be transferred
+ to other offices of WebRoam around the world. Also, in certain countries our 
+ outside contractors might undertake the collection, transferring, storage and 
+ processing of your information.
+In case, if You have transmitted or stored any Data through the Online Backup Feature
+ / on Cloud will be transferred to and stored in servers located in countries 
+ that may have less protective data protection laws than the country in which You are 
+ located (including without limitation the India). These servers are owned and
+ maintained by a third-party processor and to safeguard Your Data, WebRoam has 
+ required them to enter into contract. 
+
+
+15. INDEMNIFICATION
+I. You expressly understand, admit, agree and warrant that in no event shall
+ WebRoam and/or any of its directors, employees, agents, partners,  
+ distributors be liable from any and against all claims, expenses,
+ suits, costs, demands, judgments whatsoever made by you and/or any 
+ third party for any direct, indirect, incidental, special, punitive, 
+ consequential and/or exemplary damages including, but not limited to
+ damages for loss of business/profits, damages for loss of confidential/ 
+ other information, failure to meet any statutory duty/duty of reasonable 
+ care/duty in good faith, economic/notional loss, loss for business interruption, 
+ goodwill, damage and loss of data or programs, or other  intangible losses 
+ (even if WebRoam has been advised of the possibility  of such damages),
+ to the fullest extent permissible by law:
+a. arising due to your usage of software;
+b. your negligence or inability of using the software or support;
+c. any dispute between you and third party with respect to availing the software;
+d. your violation of any rights of any other individual and/or entity;
+e. your breach of the Agreement;
+f. your violation of any provisions under any Laws/statutes /Acts in India or abroad;
+g. the failure of WebRoam to provide support service or any other service/ information 
+II.This limitation will apply to all causes of action whether arise in equity or tort,
+ including but not limited to breach of contract, breach of warranty, negligence, 
+ strict liability, misrepresentations and hereby release WebRoam and/or its directors, 
+ employees, agents, distributors from any and all obligations, liabilities in excess 
+ of the limitation stated herein.
+III. In the event, WebRoam and/or its directors, agents, employees, distributors are 
+found liable, You understand and accept that the liability of WebRoam and/or 
+its directors, agents, employees,  distributors shall be limited only upto and
+not exceed in any case the License Fee incurred by You in acquiring the software 
+from WebRoam or its distributors/agents. This Clause shall survive the termination 
+of this Agreement.
+
+16. LIMITED WARRANTY AND DISCLAIMERS
+A. The software provided by WebRoam is “AS IS” and “AS AVAILABLE” without warranty 
+of any kind, expressed or implied, including but not limited to the implied 
+warranties of merchantability, fitness, usage, performance, satisfactory quality, 
+integration, applicability for a particular use and any other warranties are 
+disclaimed to the fullest extent permissible pursuant to the applicable law.
+B. WebRoam does not warrant, make any representations that the software will work 
+uninterrupted, timely, secure or error-free or shall meet any or 
+all your requirements whether disclosed to WebRoam or any of its directors, 
+agents, distributors and employees. The entire risks, faults as to performance 
+of the software, the responsibility for selecting the software to achieve your 
+intended results, the results obtained from the software shall be assumed by You.
+C. You understand and accept that the software will substantially perform according
+to the specifications, descriptions stated in the user manual, 
+as updated from time to time, subject to the following and WebRoam 
+expressly disclaims any and all liabilities arising from the following circumstances:
+I. incompatibility caused by any software and/or hardware components installed 
+   on your Device;
+II.any actions initiated by You or by third parties which were beyond the 
+   control of WebRoam;
+III. any failures, malfunctions, defects resulting from abuse, improper installation,
+   theft, misuse, accident, operation or maintenance,  acts of God, alteration, 
+   power failures, casualty, repairs made  by any other party than WebRoam, 
+   alterations, neglect, non-permitted modifications, acts of terrorism, vandalism;
+IV.the deficiencies, defects in Your device and related infringements;
+V. Your violations of the terms and conditions described in the user manual  
+   or in this Agreement.
+
+17. INTELLECTUAL PROPERTY
+    The software, source code, activation code, license keys,  documentation, 
+	systems, ideas, information, content, design and other  matters related 
+	to the software, trademarks are the sole proprietary  and intellectual 
+	property rights of WebRoam protected under the Intellectual Property Laws 
+	and belongs to WebRoam. Subject to certain terms mentioned in respective 
+	open source license where used by WebRoam, nothing contained in this Agreement 
+	grants You or is intended to grant You any rights, title, interest to 
+	intellectual property, including without limitation any error corrections, 
+	enhancements, updates or modifications to the software whether made by WebRoam
+	or any third party. You understand and acknowledge that you are provided with 
+	a license to use the software subject to the terms and conditions of this 
+	Agreement. This software may include certain third party components which 
+	are governed by the license agreements executed between WebRoam and the 
+	respective third party owners.
+	[The third party components licensed under terms of the certain agreement requires 
+	WebRoam to disclose that Intellectual Property rights and ownership rights shall
+	remain with WebRoam and/or its technology licensing partners respectively.
+	Even if such third party components are governed by respective 
+	agreements/contracts, the disclaimers and the limitations shall 
+	apply as mentioned in this EULA.] 
+    All the title, ownership and all rights including Intellectual Property 
+	rights of the Third Party shall rest with the concerned Third Party only and 
+	the User shall also be liable to comply with their License Terms. 
+	Where applicable, such third party will be beneficiary of this EULA.
+
+18. GENERAL
+A. Force Majeure. WebRoam will not be liable for any delay or failure to fulfill 
+   its obligations hereunder that results from an act of God, war, civil disturbance, 
+   government policies, or other cause/s beyond its    control. Provided that 
+   WebRoam shall endeavor to complete the task within a reasonable period after 
+   happening of any event as covered under such force majeure.
+B. Legal Jurisdiction. This agreement and any matter relating thereto  shall be 
+   subject only to jurisdiction of Courts at Pune, India and  shall be interpreted 
+   as per the terms of the law/s for the time being  in force in India. 
+   Any dispute which may arise out of this Agreement, breach of terms and conditions 
+   under this Agreement, shall be settled  by direct negotiations between
+   You and WebRoam. In the case of failure to resolve the dispute 
+   in the manner set out above within 30 days from the date when the 
+   dispute arose, the dispute shall be referred to a  arbitrators appointed by 
+   WebRoam. The venue of arbitration shall be  Pune. The arbitration proceedings 
+   shall be governed by the Arbitration  and Conciliation Act, 1996 and 
+   Indian Laws and shall be conducted in  the English language. 
+   The arbitrators shall also decide on the costs  of the arbitration proceedings. 
+   To the extent possible, after the commencement of any arbitral proceedings 
+   the Parties shall continue  to perform their respective obligations under 
+   this Agreement. The  provisions of this Clause shall survive termination 
+   of this Agreement.   Subject to the provisions of this Clause, the Courts 
+   in Pune, India shall have exclusive jurisdiction and the parties may pursue any
+   remedy available to them at law or equity.
+C. Complete Agreement. This Agreement comprises the entire agreement between 
+   the parties regarding the subject matter, and supersedes any  proposals, 
+   communications or advertising, oral or written, with respect  to the software
+   or subject matter of this Agreement. You shall be bound  by any and 
+   all clauses of the Agreement updated and displayed on the website of WebRoam
+   http://www.WebRoam.com/eula from time to time and  the Agreement displayed 
+   on the website (from time to time) will be the finally concluded and 
+   binding Agreement between You and WebRoam for all  legal purposes which 
+   includes Your each activation, re-activation and renewal of this software. 
+   In case of any dispute/queries arising out of any translated versions of 
+   this Agreement, WebRoam hereby expressly specifies and confirms that the 
+   English version as displayed on the website will be final for interpretation 
+   and the terms used, meaning   conveyed in the English version will be 
+   authoritative and binding. Any waiver by either party of any violation 
+   of any provision of this Agreement by the other party will not be deemed 
+   to waive any other    violation of the same or any other provision.
+D. Severability. If any of the provisions contained in this Agreement is found 
+   by a court of competent jurisdiction to be invalid, illegal or unenforceable 
+   in any respect, the validity, legality or enforceability    of the remaining
+   provisions contained herein shall not be in any way affected or impaired thereby
+   and the balance of the Agreement will continue in full force and effect to 
+   the maximum extent permitted by   law or equity while preserving, to the 
+   fullest extent possible, its original intent.
+E. Survival. The Clauses in this Agreement including not limited to rights to 
+   License Fees, “Indemnification”, “Limited Warranties &amp; Disclaimers” and 
+   “Intellectual Property” shall survive expiration or termination 
+   of this Agreement.
+F. Subject to certain terms mentioned in respective open source license 
+   where used by WebRoam, You cannot assign your rights or delegate duties 
+   or obligations under this Agreement. The failure to exercise or delay 
+   in exercising a right or remedy by WebRoam under this Agreement shall  
+   not constitute a waiver of the right or remedy or a waiver of any prior,  
+   concurrent or subsequent right or remedy.
+G. The Section numbers and headings are included merely for the convenience 
+   of the parties and are not to be construed in interpreting this Agreement.
+H. WebRoam reserves right to amend this End User License Agreement from time to 
+   time and will keep updated on its website http://www.WebRoam.com/eula and 
+   it would be binding on end user.  This is an essence of the Agreement and 
+   use of software. WebRoam reserves the right to co-operate with any 
+   legal process and may provide documents, information related to your usage 
+   of the Software and your general usage of the Device.
+
+19. Third-Party Licenses
+   The software may include certain components, developed and owned by the 
+   some third parties, which are governed by license agreements executed between
+   WebRoam and the respective third party owners. 
+   Additional restrictions applicable under the Open Source Software license, 
+   as well as third party    software license agreement,
+   which are not specifically mentioned in this EULA, will be applicable.
+
+20. Open Source Software (OSS) Licenses
+A. This software may also include some software programs, codes, 
+   and content that are licensed or sublicensed to the user under 
+   the open source software (OSS) licenses.
+B. The software programs, code and content that WebRoam may use in 
+   its software may fall in any of the following OSS licenses. 
+   WebRoam may update this list from time to time.
+</value>
+  </data>
+  <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

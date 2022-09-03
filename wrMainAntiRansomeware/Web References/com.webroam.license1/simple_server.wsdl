@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:cloudsecurity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:cloudsecurity" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:cloudsecurity">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Step1Request">
+    <wsdl:part name="session" type="xsd:string" />
+    <wsdl:part name="args" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="Step1Response">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="Step2Request">
+    <wsdl:part name="session" type="xsd:string" />
+    <wsdl:part name="args" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="Step2Response">
+    <wsdl:part name="return" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="Step3Request">
+    <wsdl:part name="session" type="xsd:string" />
+    <wsdl:part name="args" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="Step3Response">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="Step4Request">
+    <wsdl:part name="session" type="xsd:string" />
+    <wsdl:part name="args" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="Step4Response">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="doAuthenticateRequest">
+    <wsdl:part name="session" type="xsd:string" />
+    <wsdl:part name="license" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="doAuthenticateResponse">
+    <wsdl:part name="return" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="logoutRequest">
+    <wsdl:part name="session" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="logoutResponse">
+    <wsdl:part name="return" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:portType name="cloudsecurityPortType">
+    <wsdl:operation name="Step1">
+      <wsdl:input message="tns:Step1Request" />
+      <wsdl:output message="tns:Step1Response" />
+    </wsdl:operation>
+    <wsdl:operation name="Step2">
+      <wsdl:input message="tns:Step2Request" />
+      <wsdl:output message="tns:Step2Response" />
+    </wsdl:operation>
+    <wsdl:operation name="Step3">
+      <wsdl:input message="tns:Step3Request" />
+      <wsdl:output message="tns:Step3Response" />
+    </wsdl:operation>
+    <wsdl:operation name="Step4">
+      <wsdl:input message="tns:Step4Request" />
+      <wsdl:output message="tns:Step4Response" />
+    </wsdl:operation>
+    <wsdl:operation name="doAuthenticate">
+      <wsdl:input message="tns:doAuthenticateRequest" />
+      <wsdl:output message="tns:doAuthenticateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="logout">
+      <wsdl:input message="tns:logoutRequest" />
+      <wsdl:output message="tns:logoutResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="cloudsecurityBinding" type="tns:cloudsecurityPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="Step1">
+      <soap:operation soapAction="urn:cloudsecurity#Step1" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step2">
+      <soap:operation soapAction="urn:cloudsecurity#Step2" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step3">
+      <soap:operation soapAction="urn:cloudsecurity#Step3" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step4">
+      <soap:operation soapAction="urn:cloudsecurity#Step4" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="doAuthenticate">
+      <soap:operation soapAction="urn:cloudsecurity#doAuthenticate" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logout">
+      <soap:operation soapAction="urn:cloudsecurity#logout" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:cloudsecurity" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="cloudsecurity">
+    <wsdl:port name="cloudsecurityPort" binding="tns:cloudsecurityBinding">
+      <soap:address location="https://license1.webroam.com:443/l_service/check/simple_server.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
